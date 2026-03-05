@@ -1,4 +1,12 @@
-# web3-interact
+<!--
+ * @Author: huturenji huturenji@126.com
+ * @Date: 2026-03-05 21:11:12
+ * @LastEditors: huturenji huturenji@126.com
+ * @LastEditTime: 2026-03-05 21:28:15
+ * @FilePath: \web3-interact\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+# web3
 # Sample Hardhat 3 Beta Project (`mocha` and `ethers`)
 
 This project showcases a Hardhat 3 Beta project using `mocha` for tests and the `ethers` library for Ethereum interactions.
@@ -57,8 +65,12 @@ After setting the variable, you can run the deployment with the Sepolia network:
 npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 ```
 
+## Command
 
-1. run local serve
+### 1. run local serve
    npx hardhat node
-2. run local deploy
+### 2. run local deploy
   node scripts/presistentInteract.js
+
+### 3. run local test
+  npx hardhat test ./test/presistentInteract.js
